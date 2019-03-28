@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+:root {
+    --background-color: #060c21;
+    --glowing-color: #fff;
+    --gradient-color1: #89ff00;
+    --gradient-color2: #060c21;
+    --gradient-color3: #00bcd4;
+    --text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+}
+
+
+.card {
+    position: relative;
+    max-width: calc(350px - 20px);
+    min-height: calc(450px - 40px);
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 10px 20px;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: var(--glowing-color);
+    z-index: -1;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: var(--glowing-color);
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.card::before,
+.card::after {
+    background: linear-gradient(235deg, var(--gradient-color1), var(--gradient-color2), var(--gradient-color3));
+}
+
+.card-header,
+.card-content,
+.card-footer {
+    box-sizing: border-box;
+    color: var(--text-color);
+}
