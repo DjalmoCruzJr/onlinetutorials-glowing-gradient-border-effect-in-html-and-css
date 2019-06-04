@@ -2,7 +2,7 @@
 <p>Glowing Gradient Border Effect built in HTML and CSS based on tutorial of OnlineTutorials Youtube Channel.</p>
 
 <h2>Preview</h2>
-<a href="https://djalmocruzjr.github.io/onlinetutorials-tutorial-glowing-gradient-border-effect-in-html-and-css/" targe="_blank">https://djalmocruzjr.github.io/onlinetutorials-tutorial-glowing-gradient-border-effect-in-html-and-css</a>
+<a href="https://djalmocruzjr.github.io/tutorial-onlinetutorials-glowing-gradient-border-effect-in-html-and-css/" targe="_blank">https://djalmocruzjr.github.io/tutorial-onlinetutorials-glowing-gradient-border-effect-in-html-and-css/</a>
 
 <h2>Screenshots</h2>
 <img src="https://raw.githubusercontent.com/DjalmoCruzJr/onlinetutorials-tutorial-glowing-gradient-border-effect-in-html-and-css/master/screenshots/screenshot.png">
